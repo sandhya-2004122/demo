@@ -1,0 +1,148 @@
+
+.blue-border {
+    width: 100%;
+    background-color:darkblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .centered-text {
+    color: red;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+.button {
+    padding: 10px 20px; 
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border: 2px solid white; 
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+    
+     
+  }
+  
+  button:hover {
+    background-color: grey;
+  }
+  
+
+  
+  
+  .button:first-child {
+    margin-left: 0; 
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+  }
+  
+  .product {
+    text-align: center; 
+    margin-right: 10px; 
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  .product-name {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .product-image {
+    width: 350px; 
+    height: auto; 
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+  }
+  
+
+ 
+   .about-container {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-border {
+    width: 100%;
+    border-bottom: 4px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  .learn-more {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .about-button-container {
+    position: absolute;
+    right: 20px; 
+    display: flex;
+  }
+  
+  .about-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .about-button:hover {
+    background-color: pink;
+  }
+  
+  .content {
+    flex: 1;
+    width: 100%;
+    background-image: url('./assets/images/about1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content-text {
+    color:black;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; 
+  }
+   
