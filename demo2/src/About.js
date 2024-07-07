@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './styles.css'; 
+import './styles.css';
 
 const About = () => {
   return (
@@ -10,9 +10,10 @@ const About = () => {
           LEARN MORE ABOUT US
         </div>
         <div className="about-button-container">
-          <Link to="/" className="about-button">Home</Link>
-          <Link to="/Shop" className="about-button">Products</Link>
-          <Link to="/About" className="about-button">About</Link>
+          <Link to="/home" className="about-button">Home</Link>
+          <Link to="/shop" className="about-button">Products</Link>
+          <Link to="/about" className="about-button">About</Link>
+          <Link to="/contact" className="about-button">Contact</Link>
         </div>
       </div>
       <div className="content">
@@ -29,5 +30,3 @@ const About = () => {
 }
 
 export default About;
-
-
